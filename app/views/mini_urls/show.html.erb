@@ -1,0 +1,15 @@
+<p class="notice"><%= notice %></p>
+
+<p>
+  <b>Key:</b>
+  <%= @mini_url.key %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @mini_url.url %>
+</p>
+
+
+<%= link_to 'Edit', edit_mini_url_path(@mini_url) %> |
+<%= link_to 'Back', mini_urls_path %>

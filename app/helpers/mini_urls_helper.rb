@@ -1,0 +1,2 @@
+module MiniUrlsHelper
+end
